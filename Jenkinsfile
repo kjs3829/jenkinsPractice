@@ -51,7 +51,7 @@ pipeline {
                 pwd
                 """
                 sh """
-                ./gradlew build
+                sudo ./gradlew build
                 """
             }
 
