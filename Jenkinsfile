@@ -1,4 +1,4 @@
-pipelin {
+pipeline {
     // 스테이지 별로 다른 거
     agent any
 
