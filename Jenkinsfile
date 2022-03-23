@@ -47,6 +47,9 @@ pipeline {
             agent any
             steps {
                 echo 'Build Backend'
+                sh '''
+                pwd
+                '''
                 sh """
                 sudo chmod -R 777 gradlew
                 """
