@@ -48,7 +48,10 @@ pipeline {
             steps {
                 echo 'Build Backend'
                 sh """
-                sudo ./gradlew build
+                pwd
+                """
+                sh """
+                ./gradlew build
                 """
             }
 
