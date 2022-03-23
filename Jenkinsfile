@@ -48,7 +48,7 @@ pipeline {
             steps {
                 echo 'Build Backend'
                 sh """
-                pwd
+                sudo chmod -R 777 gradlew
                 """
                 sh """
                 sudo ./gradlew build
