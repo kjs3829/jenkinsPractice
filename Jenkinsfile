@@ -72,7 +72,7 @@ pipeline {
                 echo 'Build Backend'
 
                 sh '''
-                java -jar /var/lib/jenkins/workspace/MyProject/build/libs/jenkins-0.0.1-SNAPSHOT.jar
+                java -jar /var/lib/jenkins/workspace/MyProject@2/build/libs/jenkins-0.0.1-SNAPSHOT.jar
                 '''
             }
         }
