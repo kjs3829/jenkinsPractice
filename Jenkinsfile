@@ -21,8 +21,8 @@ pipeline {
             steps {
                 echo 'Clonning Repository'
 
-                git url: 'hhttps://github.com/kjs3829/jenkinsPractice'
-                    branch: 'master'
+                git url: 'hhttps://github.com/kjs3829/jenkinsPractice',
+                    branch: 'master',
                     credentialsId: 'Token for jenkins Practice'
             }
 
